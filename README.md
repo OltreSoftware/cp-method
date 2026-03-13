@@ -1,7 +1,7 @@
 # CP Method — Context Pack Method
 
-> **A structured methodology for building and maintaining high-quality AI context.**  
-> **Una metodologia strutturata per costruire e mantenere contesto AI di alta qualità.**
+> **A structured methodology for building and maintaining portable AI context.**  
+> **Una metodologia strutturata per costruire e mantenere contesto AI portabile.**
 
 ---
 
@@ -9,7 +9,7 @@
 
 ### Cos'è il CP Method
 
-Il **Context Pack (CP) Method** è una metodologia originale per la progettazione, strutturazione e aggiornamento incrementale del contesto fornito ai modelli AI generativi. Non è un tool, non è un software: è un metodo di lavoro.
+Il **Context Pack (CP) Method** è una proposta metodologica strutturata per la progettazione, la strutturazione e l'aggiornamento incrementale del contesto fornito ai modelli AI generativi. Non è un tool, non è un software: è un metodo di lavoro.
 
 Il metodo definisce:
 - una struttura standard a **14 sezioni** per organizzare il contesto
@@ -28,9 +28,11 @@ Il CP Method risolve il problema della persistenza **senza nessuno di questi sva
 
 - il contesto vive in un **file locale** sotto il controllo dell'utente
 - è **human-readable** e modificabile con qualsiasi editor
-- è **portabile tra piattaforme** (ChatGPT, Claude, Gemini, Copilot e qualsiasi futuro modello)
+- è **portabile tra i principali modelli AI generativi** (ChatGPT, Claude, Gemini, Copilot)
 - conserva **localmente la conversazione** e lo stato del lavoro nel tempo
 - funziona **offline**, senza API, senza abbonamenti aggiuntivi
+
+Poiché il metodo è local-first e non richiede servizi terzi per la conservazione del contesto, può favorire strategie di minimizzazione del dato e maggiore controllo da parte dell'utente. La conformità GDPR dipende tuttavia dal contenuto trattato, dal contesto d'uso e dall'eventuale piattaforma AI coinvolta.
 
 ### Stato del progetto
 
@@ -41,6 +43,7 @@ Il metodo è in fase di documentazione e strutturazione. I prompt operativi comp
 | Struttura a 14 sezioni | ✅ Completa |
 | Prompt base | ✅ Pronto (non pubblicato) |
 | Variante Copilot | ✅ Pronta (non pubblicata) |
+| Variante Gemini / ChatGPT | 🔄 Da validare |
 | White paper | 🔄 In lavorazione |
 | Corso / Workshop | 🔄 In strutturazione |
 
@@ -48,7 +51,7 @@ Il metodo è in fase di documentazione e strutturazione. I prompt operativi comp
 
 Se vuoi citare questo metodo nella sua fase di sviluppo:
 
-> Conte, L. (2026). *CP Method — Context Pack Method: una metodologia strutturata per la gestione del contesto AI*. [Preprint]. DOI: *https://doi.org/10.5281/zenodo.19006805*
+> Conte, L. (2026). *CP Method — Context Pack Method: una metodologia strutturata per costruire e mantenere contesto AI portabile*. Zenodo. https://doi.org/10.5281/zenodo.19006805
 
 ### Autore
 
@@ -61,7 +64,7 @@ Microsoft Certified Trainer (MCT)
 
 ### What is the CP Method
 
-The **Context Pack (CP) Method** is an original methodology for designing, structuring, and incrementally updating the context provided to generative AI models. It is not a tool or a piece of software — it is a working method.
+The **Context Pack (CP) Method** is a structured methodological proposal for the design, structuring, and incremental updating of context provided to generative AI models. It is not a tool or a piece of software — it is a working method.
 
 The method defines:
 - a standard **14-section structure** for organizing context
@@ -80,9 +83,11 @@ The CP Method solves the persistence problem **without any of these drawbacks**:
 
 - context lives in a **local file** under the user's full control
 - it is **human-readable** and editable with any text editor
-- it is **portable across platforms** (ChatGPT, Claude, Gemini, Copilot, and any future model)
+- it is **portable across the major generative AI models** (ChatGPT, Claude, Gemini, Copilot)
 - it **preserves conversations and work state** locally over time
 - it works **offline**, with no APIs, no additional subscriptions
+
+Since the method is local-first and does not require third-party services for context storage, it can support data minimisation strategies and greater user control. GDPR compliance depends, however, on the content processed, the context of use, and the AI platform involved.
 
 ### Project status
 
@@ -93,6 +98,7 @@ The method is currently being documented and structured. Full operational prompt
 | 14-section structure | ✅ Complete |
 | Base prompt | ✅ Ready (not yet published) |
 | Copilot variant | ✅ Ready (not yet published) |
+| Gemini / ChatGPT variant | 🔄 To be validated |
 | White paper | 🔄 In progress |
 | Course / Workshop | 🔄 Being structured |
 
@@ -100,7 +106,7 @@ The method is currently being documented and structured. Full operational prompt
 
 To cite this method in its current development stage:
 
-> Conte, L. (2026). *CP Method — Context Pack Method: a structured methodology for AI context management*. [Preprint]. DOI: *https://doi.org/10.5281/zenodo.19006805*
+> Conte, L. (2026). *CP Method — Context Pack Method: a structured methodology for building and maintaining portable AI context*. Zenodo. https://doi.org/10.5281/zenodo.19006805
 
 ### Author
 
@@ -111,8 +117,8 @@ Microsoft Certified Trainer (MCT)
 
 ## License / Licenza
 
-The conceptual framework and methodology described in this repository are protected under the author's intellectual property rights. No part of the operational prompts or implementation details may be reproduced or distributed without explicit written permission.
+The conceptual framework and methodology described in this repository are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the content with attribution to the author. No part of the operational prompts or implementation details may be reproduced or distributed without explicit written permission.
 
-Il framework concettuale e la metodologia descritti in questo repository sono protetti dai diritti di proprietà intellettuale dell'autore. Nessuna parte dei prompt operativi o dei dettagli implementativi può essere riprodotta o distribuita senza esplicita autorizzazione scritta.
+Il framework concettuale e la metodologia descritti in questo repository sono rilasciati sotto licenza [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Sei libero di condividere e adattare il contenuto con attribuzione all'autore. Nessuna parte dei prompt operativi o dei dettagli implementativi può essere riprodotta o distribuita senza esplicita autorizzazione scritta.
 
 © 2026 Luca Conte · Oltresoftware
