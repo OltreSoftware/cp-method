@@ -48,7 +48,7 @@ Il metodo è in fase di documentazione e strutturazione. I prompt operativi comp
 
 Se vuoi citare questo metodo nella sua fase di sviluppo:
 
-> Conte, L. (2026). *CP Method — Context Pack Method: una metodologia strutturata per la gestione del contesto AI*. [Preprint]. DOI: *(da aggiornare dopo registrazione Zenodo)*
+> Conte, L. (2026). *CP Method — Context Pack Method: una metodologia strutturata per la gestione del contesto AI*. [Preprint]. DOI: *https://doi.org/10.5281/zenodo.19006805*
 
 ### Autore
 
@@ -100,7 +100,7 @@ The method is currently being documented and structured. Full operational prompt
 
 To cite this method in its current development stage:
 
-> Conte, L. (2026). *CP Method — Context Pack Method: a structured methodology for AI context management*. [Preprint]. DOI: *(to be updated after Zenodo registration)*
+> Conte, L. (2026). *CP Method — Context Pack Method: a structured methodology for AI context management*. [Preprint]. DOI: *https://doi.org/10.5281/zenodo.19006805*
 
 ### Author
 
