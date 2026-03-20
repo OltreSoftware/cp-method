@@ -82,7 +82,7 @@ I precedenti più affini identificati sono:
 
 ### Autore
 
-**Luca Conte** · https://oltresoftware.com  
+**Luca Conte** · https://www.oltresoftware.com  
 Microsoft Certified Trainer (MCT)
 
 ---
@@ -164,7 +164,7 @@ The closest prior references identified are:
 
 ### Author
 
-**Luca Conte** · https://oltresoftware.com  
+**Luca Conte** · https://www.oltresoftware.com  
 Microsoft Certified Trainer (MCT)
 
 ---
