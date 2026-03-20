@@ -70,7 +70,7 @@ I precedenti più affini identificati sono:
 | Prompt base | ✅ Pronto (non pubblicato) |
 | Variante Copilot | ✅ Pronta (non pubblicata) |
 | Variante Gemini / ChatGPT | 🔄 Da validare |
-| Post LinkedIn annuncio | 🔄 Da pubblicare |
+| Post LinkedIn annuncio | ✅ Pubblicato |
 | White paper | 🔄 In lavorazione |
 | Corso / Workshop | 🔄 In strutturazione |
 
@@ -150,7 +150,7 @@ The closest prior references identified are:
 | Base prompt | ✅ Ready (not yet published) |
 | Copilot variant | ✅ Ready (not yet published) |
 | Gemini / ChatGPT variant | 🔄 To be validated |
-| LinkedIn announcement post | 🔄 To be published |
+| LinkedIn announcement post | ✅ Published |
 | White paper | 🔄 In progress |
 | Course / Workshop | 🔄 Being structured |
 
