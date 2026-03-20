@@ -34,22 +34,47 @@ Il CP Method risolve il problema della persistenza **senza nessuno di questi sva
 
 Poiché il metodo è local-first e non richiede servizi terzi per la conservazione del contesto, può favorire strategie di minimizzazione del dato e maggiore controllo da parte dell'utente. La conformità GDPR dipende tuttavia dal contenuto trattato, dal contesto d'uso e dall'eventuale piattaforma AI coinvolta.
 
-### Stato del progetto
+### Contributi originali
 
-Il metodo è in fase di documentazione e strutturazione. I prompt operativi completi non sono ancora pubblicati.
+Una ricerca strutturata in 4 fasi (Perplexity, Claude, Gemini, verifica manuale su arXiv/Scholar/GitHub — marzo 2026) ha identificato i seguenti contributi non documentati nella letteratura esistente:
+
+| Contributo | Descrizione |
+|---|---|
+| **Prompt di reidratazione embedded** | Il documento contiene i propri prompt di riutilizzo — nessuna istruzione esterna necessaria |
+| **Ciclo di aggiornamento autonomo** | Il modello AI segnala quando il CP va rigenerato, basandosi sulla deriva semantica |
+| **Design platform-agnostic** | Progettato esplicitamente per workflow multi-AI in parallelo da utenti non tecnici |
+| **Struttura canonica a 14 sezioni** | Formato standardizzato che include snapshot, decisioni motivate, output gold, informazioni mancanti |
+| **Versionamento semantico del contesto** | v0.1 → v0.2 → v1.0 applicato all'evoluzione conversazionale, non al software |
+| **Varianti di reasoning per piattaforma** | Strategie di esecuzione platform-specific embedded nello stesso documento |
+| **Compatibilità Microsoft Loop** | Il formato `.docx` nativo abilita l'uso collaborativo in ambienti Teams/M365 |
+
+### Posizionamento rispetto alla letteratura
+
+I precedenti più vicini identificati sono:
+
+| Riferimento | Similitudine | Cosa manca rispetto al CP |
+|---|---|---|
+| Session Handoff Protocol (Blake Link, 2025) | Trasferimento contesto strutturato | Singola piattaforma, nessun prompt embedded, nessun auto-refresh |
+| AI Context Kit (MSiccDev, gen 2026) | Istruzioni portabili cross-platform | Orientato agli sviluppatori, nessun prompt embedded, nessun auto-refresh |
+| Agentic Context Engineering / ACE (Zhang et al., arXiv 2026) | Contesto come playbook evolutivo | Per sistemi agentici automatizzati, non per utenti umani su piattaforme eterogenee |
+| MemGPT, Mem0, framework RAG | Memoria esterna per LLM | In-system e automatizzata, non portabile né human-editable |
+
+### Stato del progetto
 
 | Componente | Stato |
 |---|---|
 | Struttura a 14 sezioni | ✅ Completa |
+| Ricerca originalità (4 fasi) | ✅ Completata — marzo 2026 |
+| Zenodo DOI | ✅ Registrato |
+| GitHub repository | ✅ Attivo |
 | Prompt base | ✅ Pronto (non pubblicato) |
 | Variante Copilot | ✅ Pronta (non pubblicata) |
 | Variante Gemini / ChatGPT | 🔄 Da validare |
+| Post LinkedIn annuncio | 🔄 Da pubblicare |
 | White paper | 🔄 In lavorazione |
 | Corso / Workshop | 🔄 In strutturazione |
 
 ### Citazione
-
-Se vuoi citare questo metodo nella sua fase di sviluppo:
 
 > Conte, L. (2026). *CP Method — Context Pack Method: una metodologia strutturata per costruire e mantenere contesto AI portabile*. Zenodo. https://doi.org/10.5281/zenodo.19006805
 
@@ -89,22 +114,47 @@ The CP Method solves the persistence problem **without any of these drawbacks**:
 
 Since the method is local-first and does not require third-party services for context storage, it can support data minimisation strategies and greater user control. GDPR compliance depends, however, on the content processed, the context of use, and the AI platform involved.
 
-### Project status
+### Original contributions
 
-The method is currently being documented and structured. Full operational prompts are not yet published.
+A structured 4-phase research process (Perplexity, Claude, Gemini, manual verification on arXiv/Scholar/GitHub — March 2026) identified the following contributions not documented in existing literature:
+
+| Contribution | Description |
+|---|---|
+| **Embedded rehydration prompts** | The document contains its own prompts for reuse — no external instructions needed |
+| **Autonomous refresh cycle** | The AI model signals when the CP needs regeneration, based on semantic drift |
+| **Platform-agnostic design** | Explicitly designed for parallel multi-AI workflows by non-technical users |
+| **Canonical 14-section structure** | Standardized format including context snapshot, motivated decisions, gold outputs, missing information |
+| **Semantic versioning for conversations** | v0.1 → v0.2 → v1.0 applied to context evolution, not software versioning |
+| **Reasoning mode variants** | Platform-specific execution strategies embedded in the same document |
+| **Microsoft Loop compatibility** | Native `.docx` format enables collaborative use in Teams/M365 environments |
+
+### Positioning in the landscape
+
+The closest prior references identified are:
+
+| Reference | Similarity | What it lacks vs CP |
+|---|---|---|
+| Session Handoff Protocol (Blake Link, 2025) | Structured context transfer | Single platform, no embedded prompts, no auto-refresh |
+| AI Context Kit (MSiccDev, Jan 2026) | Cross-platform portable instructions | Developer-oriented, no embedded prompts, no auto-refresh |
+| Agentic Context Engineering / ACE (Zhang et al., arXiv 2026) | Context as evolving playbook | For automated agentic systems, not human-mediated multi-platform workflows |
+| MemGPT, Mem0, RAG frameworks | External memory for LLMs | In-system and automated, not portable or human-editable |
+
+### Project status
 
 | Component | Status |
 |---|---|
 | 14-section structure | ✅ Complete |
+| Originality research (4 phases) | ✅ Completed — March 2026 |
+| Zenodo DOI | ✅ Registered |
+| GitHub repository | ✅ Active |
 | Base prompt | ✅ Ready (not yet published) |
 | Copilot variant | ✅ Ready (not yet published) |
 | Gemini / ChatGPT variant | 🔄 To be validated |
+| LinkedIn announcement post | 🔄 To be published |
 | White paper | 🔄 In progress |
 | Course / Workshop | 🔄 Being structured |
 
 ### Citation
-
-To cite this method in its current development stage:
 
 > Conte, L. (2026). *CP Method — Context Pack Method: a structured methodology for building and maintaining portable AI context*. Zenodo. https://doi.org/10.5281/zenodo.19006805
 
