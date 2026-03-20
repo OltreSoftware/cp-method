@@ -22,7 +22,9 @@ Chiunque lavori con strumenti AI generativi in modo continuativo e strutturato: 
 
 ### Vantaggio chiave: persistenza locale e indipendenza dalla piattaforma
 
-I modelli generativi di intelligenza artificiale non hanno memoria tra una sessione e l'altra. Le soluzioni cloud che promettono di risolvere questo problema introducono dipendenza tecnologica, costi e rischi per la privacy.
+Sebbene alcuni sistemi AI offrano oggi funzioni di memoria e personalizzazione, la persistenza del contesto non è ancora uniforme, pienamente portabile né sempre sotto il controllo dell'utente tra sessioni e piattaforme.
+
+Le soluzioni cloud che promettono di risolvere questo problema introducono dipendenza tecnologica, costi e rischi per la privacy.
 
 Il CP Method risolve il problema della persistenza **senza alcuno di questi svantaggi**:
 
@@ -36,7 +38,7 @@ Poiché il metodo è local-first e non richiede servizi terzi per la conservazio
 
 ### Contributi originali
 
-Una ricerca strutturata in 4 fasi (Perplexity, Claude, Gemini, verifica manuale su arXiv/Scholar/GitHub — marzo 2026) ha identificato i seguenti contributi non esplicitamente documentati nella letteratura esistente:
+Una ricerca strutturata in 4 fasi (Perplexity, Claude, Gemini, verifica manuale su arXiv/Scholar/GitHub — marzo 2026) ha identificato i seguenti elementi distintivi che, sulla base della ricerca svolta, non sono emersi in forma esplicita nella letteratura e nei riferimenti comparabili esaminati:
 
 | Contributo | Descrizione |
 |---|---|
@@ -76,11 +78,11 @@ I precedenti più affini identificati sono:
 
 ### Citazione
 
-> Conte, L. (2026). *CP Method — Context Pack Method: una metodologia strutturata per costruire e mantenere un contesto AI portabile*. Zenodo. [https://doi.org/10.5281/zenodo.19006805](https://doi.org/10.5281/zenodo.19006805)
+> Conte, L. (2026). *CP Method — Context Pack Method: una metodologia strutturata per costruire e mantenere un contesto AI portabile*. Zenodo. https://doi.org/10.5281/zenodo.19006805
 
 ### Autore
 
-**Luca Conte** · [Oltresoftware](https://oltresoftware.com)  
+**Luca Conte** · https://oltresoftware.com  
 Microsoft Certified Trainer (MCT)
 
 ---
@@ -102,7 +104,9 @@ Anyone working with generative AI tools in a recurring and structured manner: tr
 
 ### Key advantage: local persistence and platform independence
 
-Generative AI models do not retain memory between sessions. Cloud-based solutions that claim to address this limitation introduce technological dependency, additional costs, and potential privacy risks.
+Although some AI systems now offer memory and personalization features, context persistence is still not uniform, fully portable, or always under the user's control across sessions and platforms.
+
+Cloud-based solutions that claim to address this limitation introduce technological dependency, additional costs, and potential privacy risks.
 
 The CP Method addresses the persistence problem **without any of these drawbacks**:
 
@@ -116,7 +120,7 @@ Since the method is local-first and does not require third-party services for co
 
 ### Original contributions
 
-A structured four-phase research process (Perplexity, Claude, Gemini, manual verification on arXiv/Scholar/GitHub — March 2026) identified the following contributions not explicitly documented in the existing literature:
+A structured four-phase research process (Perplexity, Claude, Gemini, manual verification on arXiv/Scholar/GitHub — March 2026) identified the following distinctive elements which, based on the research conducted, did not emerge in explicit form in the literature and comparable references reviewed:
 
 | Contribution | Description |
 |---|---|
@@ -156,19 +160,19 @@ The closest prior references identified are:
 
 ### Citation
 
-> Conte, L. (2026). *CP Method — Context Pack Method: a structured methodology for building and maintaining portable AI context*. Zenodo. [https://doi.org/10.5281/zenodo.19006805](https://doi.org/10.5281/zenodo.19006805)
+> Conte, L. (2026). *CP Method — Context Pack Method: a structured methodology for building and maintaining portable AI context*. Zenodo. https://doi.org/10.5281/zenodo.19006805
 
 ### Author
 
-**Luca Conte** · [Oltresoftware](https://oltresoftware.com)  
+**Luca Conte** · https://oltresoftware.com  
 Microsoft Certified Trainer (MCT)
 
 ---
 
 ## License / Licenza
 
-The conceptual framework and methodology described in this repository are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the content with attribution to the author. No part of the operational prompts or implementation details may be reproduced or distributed without prior explicit written permission.
+The conceptual framework and methodology described in this repository are released under https://creativecommons.org/licenses/by/4.0/. You are free to share and adapt the content with attribution to the author. No part of the operational prompts or implementation details may be reproduced or distributed without prior explicit written permission.
 
-Il framework concettuale e la metodologia descritti in questo repository sono rilasciati sotto licenza [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Sei libero di condividere e adattare il contenuto a condizione di attribuzione all'autore. Nessuna parte dei prompt operativi o dei dettagli implementativi può essere riprodotta o distribuita previa autorizzazione scritta esplicita.
+Il framework concettuale e la metodologia descritti in questo repository sono rilasciati sotto licenza https://creativecommons.org/licenses/by/4.0/. Sei libero di condividere e adattare il contenuto a condizione di attribuzione all'autore. Nessuna parte dei prompt operativi o dei dettagli implementativi può essere riprodotta o distribuita previa autorizzazione scritta esplicita.
 
 © 2026 Luca Conte · Oltresoftware
